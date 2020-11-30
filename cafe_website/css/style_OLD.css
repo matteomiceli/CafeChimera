@@ -114,10 +114,13 @@ h4{
 	font-size: 22px; 	
 }
 h5{ 
-	font-size: 1.1em; 	
+	font-family: 'Alegreya', serif;
+	font-size: 1.8em;
 }
 h6{ 
-	font-size: 1.0em; 	
+	font-family: 'Alegreya', serif;
+	font-size: 1.5em;
+	color: #C9ADA7;
 }
 
 p, ul, dl{
@@ -152,7 +155,15 @@ body{
 	text-align: center;
 }
 
+.main-body{
+	padding: 40px 175px 100px 175px;
+	text-align: left;
+}
 
+.main-body-center{
+	padding: 40px 175px 60px 175px;
+	text-align: center;
+}
 
 
 img{
@@ -240,6 +251,7 @@ main{
 	background-color: white;
 	flex:1;
 	display:flex;
+	flex-direction: column;
 	
 }
 
@@ -281,3 +293,47 @@ footer{
 	padding: 0 10px 0 10px;
 }
 
+/* About Us*/
+
+.quote-background{
+	background-image: url("../images/Tavern_quote.png");
+	background-size: 100%;
+}
+.quote-block{
+	display: flex;
+	background-color: #F2E9E4;
+	margin: 150px 0 150px 0;
+	width: 100%;
+	padding: 0px;
+	align-items:center;
+	opacity: 0.85;
+}
+
+.quote-text{
+	padding: 50px 500px 50px 500px;
+	color:#22223B;
+	font-style: italic;
+}
+
+.quote-attr{
+	font-size: 24px; 
+	text-align: right;
+	margin-right: 40px;
+}
+
+.image-block{
+	width: 900px;
+}
+
+.the-team{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+.team-item{
+	width: 400px;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0 25px 0 25px;  
+}
