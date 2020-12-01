@@ -42,6 +42,7 @@ header{
 	padding: 0px 10% 0px 10%;
 	flex: 1;
 	background-color: #F2E9E4;
+
 }
 p.head{
 	padding: 0px;
@@ -55,12 +56,18 @@ h1.head{
 #content{
 	flex: 0.5;
 	display: flex;
+	flex-basis: 0;
+	flex-grow: 1;
 }
 
-.column{
+div.column{
+	text-align: left;
 	margin-left: auto;
   	margin-right: auto;
 	padding: 0px 5% 0px 5%;
+	flex-basis: 25%;
+	flex-grow: 0;
+
 }
 
 .buttonServices{
@@ -82,17 +89,122 @@ div.row{
 div.column1{
 	display: flex;
 	flex-direction:column;
-	text-align: center;
 	padding: 0px 0px 10px 0px;
 	flex: 1;
 	background: url(images/strawberries.jpeg);
+	opacity: 0.9;
 	background-color: #F2E9E4;
 	background-repeat: no-repeat;
-  	background-size: 75% 50%;
+	background-size: contain;
+	width: 100%;
+    height: 100px;
 } 
 
+img.menu-img{
+	background-size: contain;
+	width: 100%;
+    height: 300px;
+}
 
 /* Menu Ends */
+
+/* Services starts*/
+
+#main-text-services{
+	display: flex;
+	flex-direction:column;
+	text-align: center;
+	padding: 0px 10% 0px 10%;
+	flex: 1;
+	background-color: #F2E9E4;
+}
+
+/*The following CSS rule centers the text horizontally in the header cells and presents the text in the header cells with a bold font weight:*/
+
+th { 
+	text-align: center; 
+	font-weight: bold;
+ }
+/*The next rules align the text of the header cells on their baseline and vertically center the text in each data cell:*/
+
+th { 
+	vertical-align: baseline;
+ }
+td { 
+	vertical-align: middle;
+ }
+/*The next rules specify that the top row will be surrounded by a 3px solid blue border and each of the other rows will be surrounded by a 1px solid black border:*/
+
+table { 
+	border-collapse: collapse; 
+	table-layout: fixed;
+	width: 1409px;
+	height: 500px;
+	border: 3px red double;
+	object-fit: contain;
+}
+#table div { 
+
+	border: 5px yellow solid;
+}
+tr#row1 { 
+	border: 3px solid blue;
+	
+}
+tr#row2 { 
+	border: 3px solid black;
+	
+ }
+tr#row3 { 
+	border: 3px solid pink;
+	
+}
+
+
+
+
+
+
+
+
+
+/*.column5{
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	height: 300px;
+}
+
+.column6{
+	float: right;
+	width: 33.33%;
+	padding: 10px;
+	height: 300px;
+}
+.row {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Font styles */
 
