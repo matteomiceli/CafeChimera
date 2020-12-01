@@ -213,17 +213,17 @@ h1, h2, h3, h4{
 }
 
 h1{ 
-	font-size: 40px; 	
+	font-size: 46px; 	
 }
 h2{ 
-	font-size: 32px; 
+	font-size: 40px; 
 	color: #C9ADA7;	
 }
 h3{ 
-	font-size: 26px; 	
+	font-size: 32px; 	
 }
 h4{ 
-	font-size: 22px; 	
+	font-size: 26px; 	
 }
 h5{ 
 	font-family: 'Alegreya', serif;
@@ -315,18 +315,14 @@ nav a:hover{
 .navigation_list_item{
 	font-family: 'Yatra One', cursive;
 	background-color:#4A4E69;
-	margin-top: 2px;
-	margin-bottom: 2px;
+	padding: 2px 10px 2px 10px;
+	margin: 2px 15px 2px 15px;
+	border-radius: 10px;
 	color:#F2E9E4;
-	border-right: solid 2px white;
 	line-height:30px;
 	font-weight:bold;
 	text-align:center;
 	flex: 1;
-}
-
-.navigation_list_item:first-of-type{
-	border-left: solid 2px white;
 }
 
 .navigation_list_item:hover{
@@ -335,9 +331,17 @@ nav a:hover{
 	
 }
 
-#current_page{
+.current_page{
 	background-color:#C9ADA7;
 	color: white;
+	font-family: 'Yatra One', cursive;
+	margin: 2px 15px 2px 15px;
+	padding: 2px 10px 2px 10px;
+	border-radius: 10px;
+	line-height:30px;
+	font-weight:bold;
+	text-align:center;
+	flex: 1;
 }
 
 a{
