@@ -119,82 +119,31 @@ img.menu-img{
 	background-color: #F2E9E4;
 }
 
-/*The following CSS rule centers the text horizontally in the header cells and presents the text in the header cells with a bold font weight:*/
-
-th { 
-	text-align: center; 
-	font-weight: bold;
- }
-/*The next rules align the text of the header cells on their baseline and vertically center the text in each data cell:*/
-
-th { 
-	vertical-align: baseline;
- }
-td { 
-	vertical-align: middle;
- }
-/*The next rules specify that the top row will be surrounded by a 3px solid blue border and each of the other rows will be surrounded by a 1px solid black border:*/
-
-table { 
-	border-collapse: collapse; 
-	table-layout: fixed;
-	width: 1409px;
-	height: 500px;
-	border: 3px red double;
-	object-fit: contain;
-}
-#table div { 
-
-	border: 5px yellow solid;
-}
-tr#row1 { 
-	border: 3px solid blue;
-	
-}
-tr#row2 { 
-	border: 3px solid black;
-	
- }
-tr#row3 { 
-	border: 3px solid pink;
-	
-}
-
-
-
-
-
-
-
-
-
-/*.column5{
+h2.side {
 	float: left;
-	width: 33.33%;
-	padding: 10px;
-	height: 300px;
-}
+	width: 30%;
+	height: 100%;
+	object-fit: cover;
+	background: #ccc;
+  }
+  
 
-.column6{
-	float: right;
-	width: 33.33%;
-	padding: 10px;
-	height: 300px;
-}
-.row {
+  article.testt {
+	float: left;
+	width: 70%;
+	height: 100%;
+	object-fit: cover;
+	background-color: #f1f1f1;
+	
+  }
+  
+  /* Clear floats after the columns */
+  section.test:after {
 	content: "";
 	display: table;
 	clear: both;
-}
-
-
-
-
-
-
-
-
-
+	padding: 0px 10% 0px 10%;
+  }
 
 
 
