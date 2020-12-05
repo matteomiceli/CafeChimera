@@ -42,39 +42,34 @@
 		</div>
 		
 		<main>
-			<div>
-				<!-- <img src="./images/castle.jpg" alt="castle" /> -->
-				<section id="main-text-home">
-					<h1>Header 1</h1>
-					<h2>Header 2</h2>
-					<h3>Header 3</h3>
-					<h4>Header 4</h4>
-					<p>This is a paragraph.</p>
-					<a href="BCIT.ca">Test Link</a>
-
-
-
-					<h2>Lorem ipsum dolor!</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing
-						elit. Aenean commodo ligula eget dolor.</p>
-					<ul>
-						<li>Lorem ipsum dolor sit amet consectetuer.</li>
-						<li>Aenean commodo ligula eget dolor.</li>
-					</ul>
-		
-		
-		
-					<h3>Massa dolor</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing
-						elit. Aenean commodo ligula eget dolor. Aenean massa
-						<strong>strong</strong>.<em>Nulla consequat massa</em> quis
-						enim. Donec pede justo, fringilla vel, aliquet nec,
-						vulputate eget, arcu. In enim justo, rhoncus ut,
-						imperdiet a, venenatis vitae, justo. Nullam dictum
-						felis eu pede <a class="external ext" href="#">hyper link</a>
-						mollis pretium. Integer tincidunt. Cras dapibus.
-						Vivamus elementum semper nisi.</p>
-				</section>
+			<h3>How can we help?</h3>
+			<div class="container">
+				<form action="/action_page.php">
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			
+					<label for="location">Location</label>
+					<select id="location" name="location">
+						<option value="aswium">Aswium</option>
+						<option value="fegros">Fegros</option>
+						<option value="heblaistan">Heblaistan</option>
+						<option value="nathocor">Nathocor</option>
+						<option value="sheut_shal">Shuet Shal</option>
+						<option value="skoujan">Skoujan</option>
+						<option value="snuow">Snuow</option>
+						<option value="strioce">Strioce</option>
+						<option value="taspait">Taspait</option>
+						<option value="uwhington">Uwhington</option>
+					</select>
+			
+					<label for="questions">Questions/Comments</label>
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+			
+					<input type="submit" value="Submit">
+				</form>
 			</div>
 		</main>
 		
