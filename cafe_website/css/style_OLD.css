@@ -29,9 +29,8 @@ header{
 #main-text-home{
 	flex:1;
 	padding: 40px 175px 100px 175px;
-	text-align: left;
+	text-align: center;
 }
-
 
 /* Menu page */
 
@@ -91,19 +90,18 @@ div.column1{
 	flex-direction:column;
 	padding: 0px 0px 10px 0px;
 	flex: 1;
-	background: url(images/strawberries.jpeg);
 	opacity: 0.9;
 	background-color: #F2E9E4;
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 100%;
-    height: 100px;
+	height: 100px;
 } 
 
 img.menu-img{
 	background-size: contain;
-	width: 100%;
-    height: 300px;
+	width: auto;
+	opacity: 0.8;
 }
 
 /* Menu Ends */
@@ -119,7 +117,51 @@ img.menu-img{
 	background-color: #F2E9E4;
 }
 
-h2.side {
+
+/* form style starts*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Alegreya', serif;
+}
+
+input[type=submit] {
+  background-color: #4A4E69;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Alegreya', serif;
+}
+
+input[type=submit]:hover {
+  background-color: #C9ADA7;
+  font-family: 'Alegreya', serif;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #F2E9E4;
+  padding: 20px;
+  margin: 10px 200px 25px 200px;
+  font-family: 'Alegreya', serif;
+}
+
+/* form style ends*/
+
+
+
+
+/*.column5{
 	float: left;
 	width: 30%;
 	height: 100%;
@@ -169,7 +211,7 @@ h2{
 	color: #C9ADA7;	
 }
 h3{ 
-	font-size: 32px; 	
+	font-size: 32px;	
 }
 h4{ 
 	font-size: 26px; 	
@@ -204,7 +246,6 @@ p, ul, dl{
 	width: 100%;
 	justify-content: space-between;
 	background-color: #4A4E69;
-
 }
 
 
