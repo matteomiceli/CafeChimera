@@ -117,7 +117,23 @@ img.menu-img{
 	background-color: #F2E9E4;
 }
 
+/* Contact page  */
 
+#address{
+	text-align: left;
+	line-height: .5;
+} 
+
+#contactPageWrapper {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+#mapImg {
+	height: 500px;
+	margin-right: 70px;
+}
 /* form style starts*/
 
 input[type=text], select, textarea {
@@ -152,7 +168,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #F2E9E4;
   padding: 20px;
-  margin: 10px 200px 25px 200px;
+  margin: 10px 500px 25px 500px;
   font-family: 'Alegreya', serif;
 }
 
