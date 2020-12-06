@@ -23,9 +23,7 @@ header{
 #announcement {
 	background-color: #C9ADA7;
 	padding: 5px;
-	margin: 10px 0px;
 	border-top: solid 3px #9A8C98;
-	border-bottom: solid 3px #9A8C98;
 }
 
 #main-text-home{
@@ -478,7 +476,7 @@ footer{
 /* About Us*/
 
 .quote-background{
-	background-image: url("../images/Tavern_quote.png");
+	background-image: url("../images/698504bc8568d33ca8306b38d1fb6663.jpeg");
 	background-size: 100%;
 }
 .quote-block{
@@ -489,7 +487,7 @@ footer{
 	padding: 0px;
 	align-items:center;
 	justify-content: center;
-	opacity: 0.85;
+	opacity: 0.92;
 }
 
 .quote-text{
